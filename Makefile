@@ -34,4 +34,7 @@ valgrind-thread: spin-thread
 strace: spin
 	strace ./$<
 
+strace-thread: spin-thread
+	strace ./$<
+
 .PHONY: clean time strace valgrind valgrind-thread

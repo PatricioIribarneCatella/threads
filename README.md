@@ -29,7 +29,13 @@ $ make time-thread
 $ make valgrind-thread
 ```
 
-#### Without _Threads__
+- _Strace_
+
+```bash
+$ make strace-thread
+```
+
+#### Without _Threads_
 
 - Time measurement
 
@@ -46,6 +52,6 @@ $ make valgrind
 - _Strace_
 
 ```bash
-strace: spin
+$ make strace
 ```
 
