@@ -3,7 +3,7 @@ CC := gcc
 BIN := $(filter-out main.c main-thread.c, $(wildcard *.c))
 BINFILES := $(BIN:.c=.o)
 
-all: spin
+all: spin spin-thread
 
 %.o: %.c %.h
 	$(CC) $(CFLAGS) -c $<
