@@ -4,9 +4,9 @@
 
 static char a[SIZE];
 
-static int work(void* arg) {
+static int work(void *arg) {
 
-	char* c = (char*)arg;
+	char *c = (char *) arg;
 
 	for (int i = 0; i < SIZE; i++)
 		c[i]++;
@@ -25,3 +25,4 @@ int main(void) {
 
 	return 0;
 }
+
