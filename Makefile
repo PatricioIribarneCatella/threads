@@ -28,7 +28,7 @@ time-thread: spin-thread
 valgrind: spin
 	valgrind ./$<
 
-valgrind_thread: spin-thread
+valgrind-thread: spin-thread
 	valgrind ./$<
 
 strace: spin
