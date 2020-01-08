@@ -11,12 +11,11 @@ static int work(void* arg) {
 
 	char* c = (char*)arg;
 
-	for (int i = 0; i < SIZE; i++) {
+	for (int i = 0; i < SIZE; i++)
 		c[i]++;
-	}
 
 	printf("thread end\n");
-	
+
 	return 0;
 }
 
