@@ -1,6 +1,6 @@
 # threads
 
-Very simple and brief _Threads API_ implementation with `clone(2)`
+Very simple and brief _Threads API_ implementation using `clone(2)`
 
 ### Dependencies
 
